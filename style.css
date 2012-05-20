@@ -38,7 +38,6 @@ p, div.entry-meta, div.entry-utility, div.comment-meta, div.comment-author, div.
 }
 
 a {
-    color: inherit;
     text-decoration: none;
 }
 
@@ -59,7 +58,7 @@ header, footer, div.post > *, div#comments, div.navigation, div.page {
 }
 
 /*Main site FG colour*/
-header, footer, div.post, div#comments, div.navigation, form input, form button, div.page {
+header, footer, div.post, div#comments, div.navigation, form input, form button, div.page, a {
     color: white;
 }
 

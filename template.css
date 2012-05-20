@@ -25,7 +25,7 @@ div#search {
     float: right;
 }
 
-nav {
+nav, div#search {
     display: none;
 }
 

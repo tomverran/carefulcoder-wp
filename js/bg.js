@@ -1,11 +1,13 @@
 jQuery(document).ready(function() {
 
     var carefulBgColours = calcColours(0, jQuery('header').css('background-color'));
+    console.log(jQuery('header').css('background-color'));
     boxColour();
 
     function boxColour() {
 
         var colIndex = Math.round(Math.random()*carefulBgColours.length-1);
+        console.log(carefulBgColours);
 
         var boxes = jQuery('.post');
         var boxIndex = Math.round(Math.random()*boxes.length-1);
