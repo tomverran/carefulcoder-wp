@@ -1,0 +1,88 @@
+/*
+Theme Name: Careful Coder Version 2
+Description: Using lots of boilerplate.
+Author: Tom Verran
+Template: blankslate
+*/
+
+/*Blankslate includes a reset.css*/
+@import url('../blankslate/style.css');
+
+/*Template for structure*/
+@import url("template.css");
+
+/*Ubuntu web font from Google.*/
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+/*Font*/
+html {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 62.5%;
+}
+
+h1, div#blog-title > a {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p, div.entry-meta, div.entry-utility, div.comment-meta, div.comment-author, div.comment-reply-link, label, div.menu {
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.more-link {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Main site BG colour*/
+header, footer, div.post > *, div#comments, div.navigation, div.page {
+    background-color: darkSlateBlue;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+}
+
+/*Main site FG colour*/
+header, footer, div.post, div#comments, div.navigation, form input, form button, div.page {
+    color: white;
+}
+
+header, footer {
+    text-align: center;
+}
+
+div.comment-author.vcard {
+    background-color: white;
+    color: black;
+}
+
+li.comment, div.menu:nth-child(odd) {
+    background-color: rgba(255,255,255,0.1);
+}
+
+form input[type=submit] {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    border: none;
+}
+
+form input {
+    color: black;
+    border: none;
+}

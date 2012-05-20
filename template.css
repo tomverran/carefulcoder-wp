@@ -1,0 +1,141 @@
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+div#blog-title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+div#blog-title h1 {
+    padding-bottom: 0;
+}
+
+header {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+div#search {
+    clear: both;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+nav {
+    display: none;
+}
+
+div#content, article#content {
+    overflow:  hidden;
+    max-width: 800px;
+    margin: auto;
+}
+
+div.post {
+    width: 50%;
+    float: left;
+}
+
+body.single div.post, div.page {
+    height: auto;
+}
+
+body:not(.single) div.post .entry-utility {
+    padding-bottom: 1000px;
+    margin-bottom: -990px;
+    overflow: hidden;
+}
+
+div.post:nth-child(3n+1), body.single div.post, div.page {
+    width: 100%;
+}
+
+div.post > *, div#comments, div.page {
+    border-width: 0 10px 0 10px;
+    border-style: solid;
+    border-color: #fff;
+    padding: 10px;
+    width: auto;
+}
+
+div#comments {
+    clear: both;
+}
+
+ul.children {
+    margin-left: 20px;
+    margin-top: 20px;
+    clear: both;
+}
+
+li.comment {
+    padding: 5px;
+    overflow: auto;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+div.comment-author.vcard {
+   padding: 5px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   float: left;
+}
+
+div.comment-author.vcard span.n {
+    display: block;
+    width: 80px;
+}
+
+body:not(.single) div.post .entry-title, div.page {
+    border-top-width: 20px;
+}
+
+div.navigation {
+    width: auto;
+    height: 40px;
+    margin: 0 10px 0 10px;
+    clear: both;
+}
+
+div#nav-above {
+    margin-top: 20px;
+}
+
+div.navigation p {
+    padding: 10px;
+    float: left;
+}
+
+div.navigation > p:first-child {
+    margin-left: 10px;
+}
+
+footer {
+    padding: 10px;
+    max-width: 760px;
+    margin: 20px auto auto auto;
+}
+
+form input, form button {
+    padding: 5px;
+}
+
+form textarea, form select {
+    border: none;
+    padding: 5px;
+}
+
+div.form-label {
+    width: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+div#form-allowed-tags {
+    margin: 20px 0 20px 0;
+}
