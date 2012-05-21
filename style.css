@@ -32,7 +32,7 @@ h3 {
     font-size: 2em;
 }
 
-p, div.entry-meta, div.entry-utility, div.comment-meta, div.comment-author, div.comment-reply-link, label, div.menu {
+p, div.entry-meta, div.entry-utility, div.comment-meta, div.comment-author, div.comment-reply-link, label, div.menu, div.entry-attachment, div.entry-content > span.edit-link {
     font-size: 1.3em;
     line-height: 1.3em;
 }
@@ -51,15 +51,23 @@ a:hover {
 }
 
 /*Main site BG colour*/
-header, footer, div.post > *, div#comments, div.navigation, div.page {
+header, footer, div.post > *, div#comments, div.navigation, div.page, div.attachment {
     background-color: darkSlateBlue;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+}
+
+h1.page-title {
+    color: #483d8b;
 }
 
 /*Main site FG colour*/
-header, footer, div.post, div#comments, div.navigation, form input, form button, div.page, a {
+header, footer, div.post, div#comments, div.navigation, form input, form button, div.page, div.attachment {
     color: white;
+}
+
+a {
+    color: inherit;
 }
 
 header, footer {
@@ -71,7 +79,7 @@ div.comment-author.vcard {
     color: black;
 }
 
-li.comment, div.menu:nth-child(odd) {
+nav ul li {
     background-color: rgba(255,255,255,0.1);
 }
 
@@ -84,4 +92,8 @@ form input[type=submit] {
 form input {
     color: black;
     border: none;
+}
+
+li.comment {
+    border-top: 1px solid white;
 }
